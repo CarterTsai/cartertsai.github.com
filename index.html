@@ -7,30 +7,41 @@
     
     <script src="angular.js"></script>
     <script type="text/javascript" charset="utf-8">
-        function Ctrl($scope){
+        function Ctrl($scope){ 
             $scope.people = 0;
+            $scope.icon_num = document.querySelector('#icon-num');
+            $scope.cc = function(){
+                if($scope.people == 0)
+                    $scope.icon_num.style.display = "none";
+                else
+                    $scope.icon_num.style.display = "inline";
+            }
         };
     </script>
   </head>
   <body ng-app>
 
     <h1>Changeable vector graphics with SVG and AngularJS</h1> 
+    
     <div ng-controller="Ctrl">
-        <input type="range" min="0" max="9" ng-model="people"> 
-        <span ng-include="'./images/people_info.svg'"></span>
         {{people}}
+        <div style="width:64px;height:64px;">
+            <span ng-include="'./images/people.svg'"  style="position:absolute;left:0"></span>
+            <span id="icon-num" ng-include="'./images/info.svg'"    style="display:none;position:absolute;left:0"></span>
+        </div>
+        <input type="range" min="0" max="9" ng-model="people" ng-change="cc()">
     </div>
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         var _gaq=[['_setAccount',' UA-41654255-1'],['_trackPageview']];
-              (function(d,t){
-                  var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-                  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-                        s.parentNode.insertBefore(g,s)
-                    }(document,'script'));
+        (function(d,t){
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s);
+        }(document,'script'));
     </script>
-                
-
 </body>
 </html>
