@@ -10,26 +10,34 @@
         function Ctrl($scope){ 
             $scope.people = 0;
             $scope.icon_num = document.querySelector('#icon-num');
+            $scope.icon_num_10 = document.querySelector('#icon-num-10');
             $scope.cc = function(){
-                if($scope.people == 0)
+                if($scope.people == 0) {
                     $scope.icon_num.style.display = "none";
-                else
+                    $scope.icon_num_10.style.display = "none";
+                    
+                }else if($scope.people > 0 && $scope.people <= 9){
                     $scope.icon_num.style.display = "inline";
+                    $scope.icon_num_10.style.display = "none";
+                }else {
+                    $scope.icon_num.style.display = "none";
+                    $scope.icon_num_10.style.display = "inline";
+                }
             }
         };
     </script>
   </head>
   <body ng-app>
-
-    <h1>Changeable vector graphics with SVG and AngularJS</h1> 
+    <h1>SVG and AngularJS</h1> 
     
     <div ng-controller="Ctrl">
         {{people}}
         <div style="width:64px;height:64px;">
             <span ng-include="'./images/people.svg'"  style="position:absolute;left:0;z-index:15'"></span>
             <span id="icon-num" ng-include="'./images/info.svg'"    style="display:none;position:absolute;left:0;z-index:12"></span>
+            <span id="icon-num-10" ng-include="'./images/info_ten.svg'"    style="display:none;position:absolute;left:0;z-index:12"></span>
         </div>
-        <input type="range" min="0" max="9" ng-model="people" ng-change="cc()">
+        <input type="range" min="0" max="99" ng-model="people" ng-change="cc()">
     </div>
 
 

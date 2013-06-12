@@ -15,7 +15,7 @@
    id="svg2985"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="info.svg">
+   sodipodi:docname="info_ten.svg">
   <defs
      id="defs2987">
     <linearGradient
@@ -86,7 +86,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.7993583"
-     inkscape:cx="79.040861"
+     inkscape:cx="92.564574"
      inkscape:cy="33.636276"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -138,14 +138,24 @@
        transform="matrix(0.68197863,0,0,0.6854954,16.871296,4.0251912)" />
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:400;font-family:Londrina Solid"
-       x="53.208843"
-       y="10.79826"
+       style="font-size:8px;font-style:normal;font-weight:400;font-family:Londrina Solid"
+       x="51.890713"
+       y="10.184434"
        id="text3902"><tspan
          sodipodi:role="line"
          id="tspan3904"
-         x="53.208843"
-         y="10.79826"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif Bold">{{people}}</tspan></text>
+         x="51.890713"
+         y="10.184434"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono Bold">{{people}}</tspan></text>
   </g>
-</svg>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3087"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:10px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3089"><rect
+         id="rect3091"
+         width="88.529182"
+         height="38.298248"
+         x="46.480663"
+         y="-3.050344" /></flowRegion><flowPara
+       id="flowPara3093"></flowPara></flowRoot></svg>
