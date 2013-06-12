@@ -15,7 +15,7 @@
    id="svg2985"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="people_info.svg">
+   sodipodi:docname="info.svg">
   <defs
      id="defs2987">
     <linearGradient
@@ -85,9 +85,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.2220859"
-     inkscape:cx="58.50379"
-     inkscape:cy="40.263756"
+     inkscape:zoom="8.7993583"
+     inkscape:cx="92.564574"
+     inkscape:cy="33.636276"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
@@ -95,8 +95,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="960"
-     inkscape:window-height="1027"
-     inkscape:window-x="943"
+     inkscape:window-height="1028"
+     inkscape:window-x="961"
      inkscape:window-y="24"
      inkscape:window-maximized="0" />
   <metadata
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,25 +128,25 @@
          y="47.090908" /></text>
     <path
        sodipodi:type="arc"
-       style="fill:url(#radialGradient3900);fill-opacity:1;stroke:#ffffff;stroke-width:0.69999999000000002;stroke-miterlimit:4;stroke-opacity:0.96803655000000000;stroke-dasharray:none"
+       style="fill:url(#radialGradient3900);fill-opacity:1;stroke:#ffffff;stroke-width:0.69999999;stroke-miterlimit:4;stroke-opacity:0.96803655;stroke-dasharray:none"
        id="path3028"
        sodipodi:cx="58.545456"
        sodipodi:cy="4.818182"
        sodipodi:rx="10"
        sodipodi:ry="10.636364"
        d="m 68.545456,4.818182 a 10,10.636364 0 1 1 -20,0 10,10.636364 0 1 1 20,0 z"
-       transform="matrix(0.58373248,0,0,0.58674262,22.208854,4.942974)" />
+       transform="matrix(0.68197863,0,0,0.6854954,16.871296,4.0251912)" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="53.436131"
-       y="11.093591"
+       x="52.754269"
+       y="11.32088"
        id="text3902"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3904"
-         x="53.436131"
-         y="11.093591"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Droid Sans Hebrew;-inkscape-font-specification:Droid Sans Hebrew Semi-Bold;fill:#ffffff">{{people}}</tspan></text>
+         x="52.754269"
+         y="11.32088"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif Bold">{{people}}</tspan></text>
   </g>
 </svg>
