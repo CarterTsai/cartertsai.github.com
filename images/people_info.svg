@@ -95,7 +95,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="960"
-     inkscape:window-height="1028"
+     inkscape:window-height="1027"
      inkscape:window-x="943"
      inkscape:window-y="24"
      inkscape:window-maximized="0" />
@@ -175,6 +175,6 @@
          id="tspan3904"
          x="53.436131"
          y="11.093591"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Droid Sans Hebrew;-inkscape-font-specification:Droid Sans Hebrew Semi-Bold">{{people}}</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Droid Sans Hebrew;-inkscape-font-specification:Droid Sans Hebrew Semi-Bold;fill:#ffffff">{{people}}</tspan></text>
   </g>
 </svg>
