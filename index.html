@@ -26,8 +26,8 @@
     <div ng-controller="Ctrl">
         {{people}}
         <div style="width:64px;height:64px;">
-            <span ng-include="'./images/people.svg'"  style="position:absolute;left:0"></span>
-            <span id="icon-num" ng-include="'./images/info.svg'"    style="display:none;position:absolute;left:0"></span>
+            <span ng-include="'./images/people.svg'"  style="position:absolute;left:0;z-index:15'"></span>
+            <span id="icon-num" ng-include="'./images/info.svg'"    style="display:none;position:absolute;left:0;z-index:12"></span>
         </div>
         <input type="range" min="0" max="9" ng-model="people" ng-change="cc()">
     </div>
