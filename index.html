@@ -1,0 +1,24 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    
+    <script src="angular.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        function Ctrl($scope){
+            $scope.people = 0;
+        };
+    </script>
+  </head>
+  <body ng-app>
+
+    <h1>Changeable vector graphics with SVG and AngularJS</h1> 
+    <div ng-controller="Ctrl">
+        <input type="range" min="0" max="9" ng-model="people"> 
+        <span ng-include="'./images/people_info.svg'"></span>
+        {{people}}
+    </div>
+  </body>
+</html>
